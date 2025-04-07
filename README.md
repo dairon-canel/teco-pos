@@ -1,4 +1,4 @@
-# TecoPOS - Tienda Online
+# TecoPOS - Online Store
 
 This is an online store project built with Next.js, React, and Tailwind CSS. The application uses the [Fake Store API](https://fakestoreapi.com/) to provide product data.
 
@@ -49,13 +49,13 @@ yarn dev
 
 ## Project Structure
 
-- `/src/app`: Main application code
-  - `/components`: Reusable UI components
-  - `/context`: Context providers (CartContext)
-  - `/utils`: Utility functions and API communication
-  - `/product/[id]`: Product detail page
-  - `/cart`: Shopping cart page
-  - `/checkout`: Order confirmation page
+- `/src/app`: App router code
+  - `/app/product/[id]`: Product detail page
+  - `/app/cart`: Shopping cart page
+  - `/app/checkout`: Order confirmation page
+- `/src/components`: Reusable UI components
+- `/src/context`: Context providers (CartContext)
+- `/src/utils`: Utility functions and API communication
 
 ## Technologies Used
 
@@ -72,4 +72,4 @@ This project uses the [Fake Store API](https://fakestoreapi.com/) to fetch produ
 
 The app can be deployed using Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/your-username/teco-pos)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/dairon-canel/teco-pos)
