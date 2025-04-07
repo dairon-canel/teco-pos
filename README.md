@@ -2,6 +2,8 @@
 
 This is an online store project built with Next.js, React, and Tailwind CSS. The application uses the [Fake Store API](https://fakestoreapi.com/) to provide product data.
 
+Demo: https://teco-pos.vercel.app/
+
 ## Features
 
 - **Homepage with Product Listing**: View all products with images, names, prices, and "Add to Cart" functionality.
